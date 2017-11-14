@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* BEM support Func
  -------------------------- */
 /* Element Chalk Variables */
@@ -228,42 +229,458 @@
 --------------------------*/
 /* Break-point
 --------------------------*/
-.v-modal-enter {
-  -webkit-animation: v-modal-in .2s ease;
-  animation: v-modal-in .2s ease; }
+/* BEM support Func
+ -------------------------- */
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Colors
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Background
+-------------------------- */
+/* Border
+-------------------------- */
+/* Box-shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Font
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* Message Box
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Break-point
+--------------------------*/
+/* Break-points
+ -------------------------- */
+/* Scrollbar
+ -------------------------- */
+/* Placeholder
+ -------------------------- */
+/* BEM
+ -------------------------- */
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Colors
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Background
+-------------------------- */
+/* Border
+-------------------------- */
+/* Box-shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Font
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* Message Box
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Break-point
+--------------------------*/
+.el-input {
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%; }
+  .el-input::-webkit-scrollbar {
+    z-index: 11;
+    width: 6px; }
+    .el-input::-webkit-scrollbar:horizontal {
+      height: 6px; }
+    .el-input::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      width: 6px;
+      background: #b4bccc; }
+    .el-input::-webkit-scrollbar-corner {
+      background: #fff; }
+    .el-input::-webkit-scrollbar-track {
+      background: #fff; }
+      .el-input::-webkit-scrollbar-track-piece {
+        background: #fff;
+        width: 6px; }
+  .el-input__inner {
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #d8dce5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #5a5e66;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 1;
+    outline: none;
+    padding: 0 15px;
+    -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%; }
+    .el-input__inner::-webkit-input-placeholder {
+      color: #b4bccc; }
+    .el-input__inner:-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-input__inner::-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-input__inner::placeholder {
+      color: #b4bccc; }
+    .el-input__inner:hover {
+      border-color: #b4bccc; }
+    .el-input__inner:focus {
+      outline: none;
+      border-color: #409EFF; }
+  .el-input__suffix {
+    position: absolute;
+    height: 100%;
+    right: 5px;
+    top: 0;
+    text-align: center;
+    color: #b4bccc;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none; }
+  .el-input__suffix-inner {
+    pointer-events: all; }
+  .el-input__prefix {
+    position: absolute;
+    height: 100%;
+    left: 5px;
+    top: 0;
+    text-align: center;
+    color: #b4bccc;
+    -webkit-transition: all .3s;
+    transition: all .3s; }
+  .el-input__icon {
+    height: 100%;
+    width: 25px;
+    text-align: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    line-height: 40px; }
+    .el-input__icon:after {
+      content: '';
+      height: 100%;
+      width: 0;
+      display: inline-block;
+      vertical-align: middle; }
+  .el-input__validateIcon {
+    pointer-events: none; }
+  .el-input.is-active .el-input__inner {
+    outline: none;
+    border-color: #409EFF; }
+  .el-input.is-disabled .el-input__inner {
+    background-color: #f5f7fa;
+    border-color: #dfe4ed;
+    color: #b4bccc;
+    cursor: not-allowed; }
+    .el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
+      color: #b4bccc; }
+    .el-input.is-disabled .el-input__inner:-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-input.is-disabled .el-input__inner::-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-input.is-disabled .el-input__inner::placeholder {
+      color: #b4bccc; }
+  .el-input.is-disabled .el-input__icon {
+    cursor: not-allowed; }
+  .el-input--suffix .el-input__inner {
+    padding-right: 30px; }
+  .el-input--prefix .el-input__inner {
+    padding-left: 30px; }
+  .el-input--medium {
+    font-size: 14px; }
+    .el-input--medium .el-input__inner {
+      height: 36px; }
+    .el-input--medium .el-input__icon {
+      line-height: 36px; }
+  .el-input--small {
+    font-size: 13px; }
+    .el-input--small .el-input__inner {
+      height: 32px; }
+    .el-input--small .el-input__icon {
+      line-height: 32px; }
+  .el-input--mini {
+    font-size: 12px; }
+    .el-input--mini .el-input__inner {
+      height: 28px; }
+    .el-input--mini .el-input__icon {
+      line-height: 28px; }
 
-.v-modal-leave {
-  -webkit-animation: v-modal-out .2s ease forwards;
-  animation: v-modal-out .2s ease forwards; }
-
-@-webkit-keyframes v-modal-in {
-  0% {
-    opacity: 0; }
-  100% { } }
-
-@keyframes v-modal-in {
-  0% {
-    opacity: 0; }
-  100% { } }
-
-@-webkit-keyframes v-modal-out {
-  0% { }
-  100% {
-    opacity: 0; } }
-
-@keyframes v-modal-out {
-  0% { }
-  100% {
-    opacity: 0; } }
-
-.v-modal {
-  position: fixed;
-  left: 0;
-  top: 0;
+.el-input-group {
+  line-height: normal;
+  display: inline-table;
   width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  background: #000; }
+  border-collapse: separate; }
+  .el-input-group > .el-input__inner {
+    vertical-align: middle;
+    display: table-cell; }
+  .el-input-group__append, .el-input-group__prepend {
+    background-color: #f5f7fa;
+    color: #878d99;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    border: 1px solid #d8dce5;
+    border-radius: 4px;
+    padding: 0 20px;
+    width: 1px;
+    white-space: nowrap; }
+    .el-input-group__append:focus, .el-input-group__prepend:focus {
+      outline: none; }
+    .el-input-group__append .el-select, .el-input-group__append .el-button, .el-input-group__prepend .el-select, .el-input-group__prepend .el-button {
+      display: inline-block;
+      margin: -20px; }
+    .el-input-group__append button.el-button, .el-input-group__append div.el-select .el-input__inner, .el-input-group__append div.el-select:hover .el-input__inner, .el-input-group__prepend button.el-button, .el-input-group__prepend div.el-select .el-input__inner, .el-input-group__prepend div.el-select:hover .el-input__inner {
+      border-color: transparent;
+      background-color: transparent;
+      color: inherit;
+      border-top: 0;
+      border-bottom: 0; }
+    .el-input-group__append .el-button, .el-input-group__append .el-input, .el-input-group__prepend .el-button, .el-input-group__prepend .el-input {
+      font-size: inherit; }
+  .el-input-group__prepend {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .el-input-group__append {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .el-input-group--prepend .el-input__inner {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .el-input-group--append .el-input__inner {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+
+.el-textarea {
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom; }
+  .el-textarea__inner {
+    display: block;
+    resize: vertical;
+    padding: 5px 15px;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    color: #5a5e66;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d8dce5;
+    border-radius: 4px;
+    -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
+    .el-textarea__inner::-webkit-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea__inner:-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea__inner::-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea__inner::placeholder {
+      color: #b4bccc; }
+    .el-textarea__inner:hover {
+      border-color: #b4bccc; }
+    .el-textarea__inner:focus {
+      outline: none;
+      border-color: #409EFF; }
+  .el-textarea.is-disabled .el-textarea__inner {
+    background-color: #f5f7fa;
+    border-color: #dfe4ed;
+    color: #b4bccc;
+    cursor: not-allowed; }
+    .el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
+      color: #b4bccc; }
+    .el-textarea.is-disabled .el-textarea__inner::placeholder {
+      color: #b4bccc; }
 
 /* Element Chalk Variables */
 /* Transition
@@ -971,6 +1388,116 @@
     border-left-color: rgba(255, 255, 255, 0.5);
     border-right-color: rgba(255, 255, 255, 0.5); }
 
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Colors
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Background
+-------------------------- */
+/* Border
+-------------------------- */
+/* Box-shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Font
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* Message Box
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Break-point
+--------------------------*/
 /* BEM support Func
  -------------------------- */
 /* Element Chalk Variables */
@@ -1201,405 +1728,426 @@
 --------------------------*/
 /* Break-point
 --------------------------*/
-.el-input {
-  position: relative;
+.el-checkbox {
+  color: #5a5e66;
+  font-weight: 500;
   font-size: 14px;
+  position: relative;
+  cursor: pointer;
   display: inline-block;
-  width: 100%; }
-  .el-input::-webkit-scrollbar {
-    z-index: 11;
-    width: 6px; }
-    .el-input::-webkit-scrollbar:horizontal {
-      height: 6px; }
-    .el-input::-webkit-scrollbar-thumb {
-      border-radius: 5px;
-      width: 6px;
-      background: #b4bccc; }
-    .el-input::-webkit-scrollbar-corner {
-      background: #fff; }
-    .el-input::-webkit-scrollbar-track {
-      background: #fff; }
-      .el-input::-webkit-scrollbar-track-piece {
-        background: #fff;
-        width: 6px; }
-  .el-input__inner {
-    -webkit-appearance: none;
-    background-color: #fff;
-    background-image: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .el-checkbox.is-bordered {
+    padding: 9px 20px 9px 10px;
     border-radius: 4px;
     border: 1px solid #d8dce5;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #5a5e66;
-    display: inline-block;
-    font-size: inherit;
-    height: 40px;
-    line-height: 1;
-    outline: none;
-    padding: 0 15px;
-    -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    width: 100%; }
-    .el-input__inner::-webkit-input-placeholder {
-      color: #b4bccc; }
-    .el-input__inner:-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-input__inner::-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-input__inner::placeholder {
-      color: #b4bccc; }
-    .el-input__inner:hover {
-      border-color: #b4bccc; }
-    .el-input__inner:focus {
-      outline: none;
+    line-height: normal;
+    height: 40px; }
+    .el-checkbox.is-bordered.is-checked {
       border-color: #409EFF; }
-  .el-input__suffix {
-    position: absolute;
-    height: 100%;
-    right: 5px;
-    top: 0;
-    text-align: center;
-    color: #b4bccc;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    pointer-events: none; }
-  .el-input__suffix-inner {
-    pointer-events: all; }
-  .el-input__prefix {
-    position: absolute;
-    height: 100%;
-    left: 5px;
-    top: 0;
-    text-align: center;
-    color: #b4bccc;
-    -webkit-transition: all .3s;
-    transition: all .3s; }
-  .el-input__icon {
-    height: 100%;
-    width: 25px;
-    text-align: center;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    line-height: 40px; }
-    .el-input__icon:after {
-      content: '';
-      height: 100%;
-      width: 0;
-      display: inline-block;
-      vertical-align: middle; }
-  .el-input__validateIcon {
-    pointer-events: none; }
-  .el-input.is-active .el-input__inner {
-    outline: none;
-    border-color: #409EFF; }
-  .el-input.is-disabled .el-input__inner {
-    background-color: #f5f7fa;
-    border-color: #dfe4ed;
-    color: #b4bccc;
-    cursor: not-allowed; }
-    .el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
-      color: #b4bccc; }
-    .el-input.is-disabled .el-input__inner:-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-input.is-disabled .el-input__inner::-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-input.is-disabled .el-input__inner::placeholder {
-      color: #b4bccc; }
-  .el-input.is-disabled .el-input__icon {
-    cursor: not-allowed; }
-  .el-input--suffix .el-input__inner {
-    padding-right: 30px; }
-  .el-input--prefix .el-input__inner {
-    padding-left: 30px; }
-  .el-input--medium {
-    font-size: 14px; }
-    .el-input--medium .el-input__inner {
+    .el-checkbox.is-bordered.is-disabled {
+      border-color: #e6ebf5;
+      cursor: not-allowed; }
+    .el-checkbox.is-bordered + .el-checkbox.is-bordered {
+      margin-left: 10px; }
+    .el-checkbox.is-bordered.el-checkbox--medium {
+      padding: 7px 20px 7px 10px;
+      border-radius: 4px;
       height: 36px; }
-    .el-input--medium .el-input__icon {
-      line-height: 36px; }
-  .el-input--small {
-    font-size: 13px; }
-    .el-input--small .el-input__inner {
+      .el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__label {
+        line-height: 17px;
+        font-size: 14px; }
+      .el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__inner {
+        height: 14px;
+        width: 14px; }
+    .el-checkbox.is-bordered.el-checkbox--small {
+      padding: 5px 15px 5px 10px;
+      border-radius: 3px;
       height: 32px; }
-    .el-input--small .el-input__icon {
-      line-height: 32px; }
-  .el-input--mini {
-    font-size: 12px; }
-    .el-input--mini .el-input__inner {
+      .el-checkbox.is-bordered.el-checkbox--small .el-checkbox__label {
+        line-height: 15px;
+        font-size: 12px; }
+      .el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner {
+        height: 12px;
+        width: 12px; }
+        .el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner::after {
+          height: 6px;
+          width: 2px; }
+    .el-checkbox.is-bordered.el-checkbox--mini {
+      padding: 3px 15px 3px 10px;
+      border-radius: 3px;
       height: 28px; }
-    .el-input--mini .el-input__icon {
-      line-height: 28px; }
-
-.el-input-group {
-  line-height: normal;
-  display: inline-table;
-  width: 100%;
-  border-collapse: separate; }
-  .el-input-group > .el-input__inner {
-    vertical-align: middle;
-    display: table-cell; }
-  .el-input-group__append, .el-input-group__prepend {
-    background-color: #f5f7fa;
-    color: #878d99;
-    vertical-align: middle;
-    display: table-cell;
+      .el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__label {
+        line-height: 12px;
+        font-size: 12px; }
+      .el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner {
+        height: 12px;
+        width: 12px; }
+        .el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner::after {
+          height: 6px;
+          width: 2px; }
+  .el-checkbox__input {
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    vertical-align: middle; }
+    .el-checkbox__input.is-disabled .el-checkbox__inner {
+      background-color: #edf2fc;
+      border-color: #d8dce5;
+      cursor: not-allowed; }
+      .el-checkbox__input.is-disabled .el-checkbox__inner::after {
+        cursor: not-allowed;
+        border-color: #b4bccc; }
+      .el-checkbox__input.is-disabled .el-checkbox__inner + .el-checkbox__label {
+        cursor: not-allowed; }
+    .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+      background-color: #edf2fc;
+      border-color: #d8dce5; }
+      .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+        border-color: #b4bccc; }
+    .el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner {
+      background-color: #edf2fc;
+      border-color: #d8dce5; }
+      .el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner::before {
+        background-color: #b4bccc;
+        border-color: #b4bccc; }
+    .el-checkbox__input.is-disabled + span.el-checkbox__label {
+      color: #b4bccc;
+      cursor: not-allowed; }
+    .el-checkbox__input.is-checked .el-checkbox__inner {
+      background-color: #409EFF;
+      border-color: #409EFF; }
+      .el-checkbox__input.is-checked .el-checkbox__inner::after {
+        -webkit-transform: rotate(45deg) scaleY(1);
+        transform: rotate(45deg) scaleY(1); }
+    .el-checkbox__input.is-checked + .el-checkbox__label {
+      color: #409EFF; }
+    .el-checkbox__input.is-focus {
+      /*focus时 视觉上区分*/ }
+      .el-checkbox__input.is-focus .el-checkbox__inner {
+        border-color: #409EFF; }
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+      background-color: #409EFF;
+      border-color: #409EFF; }
+      .el-checkbox__input.is-indeterminate .el-checkbox__inner::before {
+        content: '';
+        position: absolute;
+        display: block;
+        background-color: #fff;
+        height: 2px;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        left: 0;
+        right: 0;
+        top: 5px; }
+      .el-checkbox__input.is-indeterminate .el-checkbox__inner::after {
+        display: none; }
+  .el-checkbox__inner {
+    display: inline-block;
     position: relative;
     border: 1px solid #d8dce5;
-    border-radius: 4px;
-    padding: 0 20px;
-    width: 1px;
-    white-space: nowrap; }
-    .el-input-group__append:focus, .el-input-group__prepend:focus {
-      outline: none; }
-    .el-input-group__append .el-select, .el-input-group__append .el-button, .el-input-group__prepend .el-select, .el-input-group__prepend .el-button {
-      display: inline-block;
-      margin: -20px; }
-    .el-input-group__append button.el-button, .el-input-group__append div.el-select .el-input__inner, .el-input-group__append div.el-select:hover .el-input__inner, .el-input-group__prepend button.el-button, .el-input-group__prepend div.el-select .el-input__inner, .el-input-group__prepend div.el-select:hover .el-input__inner {
-      border-color: transparent;
-      background-color: transparent;
-      color: inherit;
-      border-top: 0;
-      border-bottom: 0; }
-    .el-input-group__append .el-button, .el-input-group__append .el-input, .el-input-group__prepend .el-button, .el-input-group__prepend .el-input {
-      font-size: inherit; }
-  .el-input-group__prepend {
-    border-right: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
-  .el-input-group__append {
-    border-left: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0; }
-  .el-input-group--prepend .el-input__inner {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0; }
-  .el-input-group--append .el-input__inner {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
-
-.el-textarea {
-  display: inline-block;
-  width: 100%;
-  vertical-align: bottom; }
-  .el-textarea__inner {
-    display: block;
-    resize: vertical;
-    padding: 5px 15px;
-    line-height: 1.5;
+    border-radius: 2px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
-    font-size: 14px;
-    color: #5a5e66;
+    width: 14px;
+    height: 14px;
     background-color: #fff;
-    background-image: none;
-    border: 1px solid #d8dce5;
-    border-radius: 4px;
-    -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
-    .el-textarea__inner::-webkit-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea__inner:-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea__inner::-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea__inner::placeholder {
-      color: #b4bccc; }
-    .el-textarea__inner:hover {
-      border-color: #b4bccc; }
-    .el-textarea__inner:focus {
-      outline: none;
+    z-index: 1;
+    -webkit-transition: border-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46);
+    transition: border-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46); }
+    .el-checkbox__inner:hover {
       border-color: #409EFF; }
-  .el-textarea.is-disabled .el-textarea__inner {
-    background-color: #f5f7fa;
-    border-color: #dfe4ed;
-    color: #b4bccc;
-    cursor: not-allowed; }
-    .el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
-      color: #b4bccc; }
-    .el-textarea.is-disabled .el-textarea__inner::placeholder {
-      color: #b4bccc; }
+    .el-checkbox__inner::after {
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+      content: "";
+      border: 1px solid #fff;
+      border-left: 0;
+      border-top: 0;
+      height: 7px;
+      left: 4px;
+      position: absolute;
+      top: 1px;
+      -webkit-transform: rotate(45deg) scaleY(0);
+      transform: rotate(45deg) scaleY(0);
+      width: 3px;
+      -webkit-transition: -webkit-transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 0.05s;
+      transition: -webkit-transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 0.05s;
+      transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 0.05s;
+      transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 0.05s, -webkit-transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 0.05s;
+      -webkit-transform-origin: center;
+      transform-origin: center; }
+  .el-checkbox__original {
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    margin: 0;
+    width: 0;
+    height: 0;
+    left: -999px; }
+  .el-checkbox__label {
+    display: inline-block;
+    padding-left: 10px;
+    line-height: 19px;
+    font-size: 14px; }
+  .el-checkbox + .el-checkbox {
+    margin-left: 30px; }
 
-.el-message-box {
-  display: inline-block;
-  width: 420px;
-  padding-bottom: 10px;
-  vertical-align: middle;
-  background-color: #fff;
-  border-radius: 4px;
+.el-checkbox-button {
+  position: relative;
+  display: inline-block; }
+  .el-checkbox-button__inner {
+    display: inline-block;
+    line-height: 1;
+    font-weight: 500;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #d8dce5;
+    border-left: 0;
+    color: #5a5e66;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    position: relative;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 0; }
+    .el-checkbox-button__inner.is-round {
+      padding: 12px 20px; }
+    .el-checkbox-button__inner:hover {
+      color: #409EFF; }
+    .el-checkbox-button__inner [class*="el-icon-"] {
+      line-height: 0.9; }
+      .el-checkbox-button__inner [class*="el-icon-"] + span {
+        margin-left: 5px; }
+  .el-checkbox-button__original {
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    margin: 0;
+    left: -999px; }
+  .el-checkbox-button.is-checked .el-checkbox-button__inner {
+    color: #fff;
+    background-color: #409EFF;
+    border-color: #409EFF;
+    -webkit-box-shadow: -1px 0 0 0 #8cc5ff;
+    box-shadow: -1px 0 0 0 #8cc5ff; }
+  .el-checkbox-button.is-disabled .el-checkbox-button__inner {
+    color: #b4bccc;
+    cursor: not-allowed;
+    background-image: none;
+    background-color: #fff;
+    border-color: #e6ebf5;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .el-checkbox-button:first-child .el-checkbox-button__inner {
+    border-left: 1px solid #d8dce5;
+    border-radius: 4px 0 0 4px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .el-checkbox-button.is-focus .el-checkbox-button__inner {
+    border-color: #409EFF; }
+  .el-checkbox-button:last-child .el-checkbox-button__inner {
+    border-radius: 0 4px 4px 0; }
+  .el-checkbox-button--medium .el-checkbox-button__inner {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 0; }
+    .el-checkbox-button--medium .el-checkbox-button__inner.is-round {
+      padding: 10px 20px; }
+  .el-checkbox-button--small .el-checkbox-button__inner {
+    padding: 9px 15px;
+    font-size: 12px;
+    border-radius: 0; }
+    .el-checkbox-button--small .el-checkbox-button__inner.is-round {
+      padding: 9px 15px; }
+  .el-checkbox-button--mini .el-checkbox-button__inner {
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 0; }
+    .el-checkbox-button--mini .el-checkbox-button__inner.is-round {
+      padding: 7px 15px; }
+
+.el-checkbox-group {
+  font-size: 0; }
+
+.el-transfer {
+  font-size: 14px; }
+  .el-transfer__buttons {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px; }
+  .el-transfer__button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #409EFF;
+    font-size: 0; }
+    .el-transfer__button.is-with-texts {
+      border-radius: 4px; }
+    .el-transfer__button.is-disabled {
+      border: 1px solid #d8dce5;
+      background-color: #f5f7fa;
+      color: #b4bccc; }
+      .el-transfer__button.is-disabled:hover {
+        border: 1px solid #d8dce5;
+        background-color: #f5f7fa;
+        color: #b4bccc; }
+    .el-transfer__button:first-child {
+      margin-bottom: 10px; }
+    .el-transfer__button:nth-child(2) {
+      margin: 0; }
+    .el-transfer__button i, .el-transfer__button span {
+      font-size: 14px; }
+    .el-transfer__button [class*="el-icon-"] + span {
+      margin-left: 0; }
+
+.el-transfer-panel {
   border: 1px solid #e6ebf5;
-  font-size: 18px;
-  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-  text-align: left;
+  border-radius: 4px;
   overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-  .el-message-box__wrapper {
-    position: fixed;
-    top: 0;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative; }
+  .el-transfer-panel__body {
+    height: 246px; }
+    .el-transfer-panel__body.is-with-footer {
+      padding-bottom: 40px; }
+  .el-transfer-panel__list {
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    height: 246px;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .el-transfer-panel__list.is-filterable {
+      height: 194px;
+      padding-top: 0; }
+  .el-transfer-panel__item {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    display: block; }
+    .el-transfer-panel__item + .el-transfer-panel__item {
+      margin-left: 0; }
+    .el-transfer-panel__item.el-checkbox {
+      color: #5a5e66; }
+    .el-transfer-panel__item:hover {
+      color: #409EFF; }
+    .el-transfer-panel__item.el-checkbox .el-checkbox__label {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 24px;
+      line-height: 30px; }
+    .el-transfer-panel__item .el-checkbox__input {
+      position: absolute;
+      top: 8px; }
+  .el-transfer-panel__filter {
+    text-align: center;
+    margin: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: auto; }
+    .el-transfer-panel__filter .el-input__inner {
+      height: 32px;
+      width: 100%;
+      font-size: 12px;
+      display: inline-block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 16px;
+      padding-right: 10px;
+      padding-left: 30px; }
+    .el-transfer-panel__filter .el-input__icon {
+      margin-left: 5px; }
+    .el-transfer-panel__filter .el-icon-circle-close {
+      cursor: pointer; }
+  .el-transfer-panel .el-transfer-panel__header {
+    height: 40px;
+    line-height: 40px;
+    background: #f5f7fa;
+    margin: 0;
+    padding-left: 15px;
+    border-bottom: 1px solid #e6ebf5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000; }
+    .el-transfer-panel .el-transfer-panel__header .el-checkbox {
+      display: block;
+      line-height: 40px; }
+      .el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label {
+        font-size: 16px;
+        color: #2d2f33;
+        font-weight: normal; }
+        .el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label span {
+          position: absolute;
+          right: 15px;
+          color: #878d99;
+          font-size: 12px;
+          font-weight: normal; }
+  .el-transfer-panel .el-transfer-panel__footer {
+    height: 40px;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e6ebf5;
+    position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
-    text-align: center; }
-    .el-message-box__wrapper::after {
-      content: "";
+    width: 100%;
+    z-index: 1; }
+    .el-transfer-panel .el-transfer-panel__footer::after {
       display: inline-block;
+      content: "";
       height: 100%;
-      width: 0;
       vertical-align: middle; }
-  .el-message-box__header {
-    position: relative;
-    padding: 15px;
-    padding-bottom: 10px; }
-  .el-message-box__title {
-    padding-left: 0;
-    margin-bottom: 0;
-    font-size: 18px;
-    line-height: 1;
-    color: #2d2f33; }
-  .el-message-box__headerbtn {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    padding: 0;
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 16px;
-    cursor: pointer; }
-    .el-message-box__headerbtn .el-message-box__close {
-      color: #878d99; }
-    .el-message-box__headerbtn:focus .el-message-box__close, .el-message-box__headerbtn:hover .el-message-box__close {
-      color: #409EFF; }
-  .el-message-box__content {
-    position: relative;
-    padding: 10px 15px;
-    color: #5a5e66;
-    font-size: 14px; }
-  .el-message-box__input {
-    padding-top: 15px; }
-    .el-message-box__input input.invalid {
-      border-color: #fa5555; }
-      .el-message-box__input input.invalid:focus {
-        border-color: #fa5555; }
-  .el-message-box__status {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 24px !important; }
-    .el-message-box__status::before {
-      padding-left: 1px; }
-    .el-message-box__status + .el-message-box__message {
-      padding-left: 36px;
-      padding-right: 12px; }
-    .el-message-box__status.el-icon-success {
-      color: #67c23a; }
-    .el-message-box__status.el-icon-info {
-      color: #878d99; }
-    .el-message-box__status.el-icon-warning {
-      color: #eb9e05; }
-    .el-message-box__status.el-icon-error {
-      color: #fa5555; }
-  .el-message-box__message {
-    margin: 0; }
-    .el-message-box__message p {
-      margin: 0;
-      line-height: 24px; }
-  .el-message-box__errormsg {
-    color: #fa5555;
-    font-size: 12px;
-    min-height: 18px;
-    margin-top: 2px; }
-  .el-message-box__btns {
-    padding: 5px 15px 0;
-    text-align: right; }
-    .el-message-box__btns button:nth-child(2) {
-      margin-left: 10px; }
-  .el-message-box__btns-reverse {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse; }
-  .el-message-box--center {
-    padding-bottom: 30px; }
-    .el-message-box--center .el-message-box__header {
-      padding-top: 30px; }
-    .el-message-box--center .el-message-box__title {
-      position: relative;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-    .el-message-box--center .el-message-box__status {
-      position: relative;
-      top: auto;
-      padding-right: 5px;
-      text-align: center;
-      -webkit-transform: translateY(-1px);
-      transform: translateY(-1px); }
-    .el-message-box--center .el-message-box__message {
-      margin-left: 0; }
-    .el-message-box--center .el-message-box__btns, .el-message-box--center .el-message-box__content {
-      text-align: center; }
-    .el-message-box--center .el-message-box__content {
-      padding-left: 27px;
-      padding-right: 27px; }
-
-.msgbox-fade-enter-active {
-  -webkit-animation: msgbox-fade-in .3s;
-  animation: msgbox-fade-in .3s; }
-
-.msgbox-fade-leave-active {
-  -webkit-animation: msgbox-fade-out .3s;
-  animation: msgbox-fade-out .3s; }
-
-@-webkit-keyframes msgbox-fade-in {
-  0% {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1; } }
-
-@keyframes msgbox-fade-in {
-  0% {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1; } }
-
-@-webkit-keyframes msgbox-fade-out {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1; }
-  100% {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-    opacity: 0; } }
-
-@keyframes msgbox-fade-out {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1; }
-  100% {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-    opacity: 0; } }
+    .el-transfer-panel .el-transfer-panel__footer .el-checkbox {
+      padding-left: 20px;
+      color: #5a5e66; }
+  .el-transfer-panel .el-transfer-panel__empty {
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 6px 15px 0;
+    color: #878d99; }
+  .el-transfer-panel .el-checkbox__label {
+    padding-left: 8px; }
+  .el-transfer-panel .el-checkbox__inner {
+    height: 14px;
+    width: 14px;
+    border-radius: 3px; }
+    .el-transfer-panel .el-checkbox__inner::after {
+      height: 6px;
+      width: 3px;
+      left: 4px; }

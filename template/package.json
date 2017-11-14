@@ -100,9 +100,9 @@
     "selenium-server": "^3.0.1",
     {{/e2e}}
     {{#element}}
-    "element-theme": "^0.7.2",
-    "element-theme-default": "^1.0.2",
-    "element-ui": "^1.0.2",
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.0.4",
+    "element-ui": "^2.0.4",
     {{/element}}
     {{#pug}}
     "pug": "^2.0.0-beta6",
