@@ -33,7 +33,7 @@ npm test
 {{/if_or}}
 {{#element}}
 
-# regenerate Element component styles in theme/ from element-variables.css
+# regenerate Element component styles in theme/ from element-variables.scss
 npm run theme
 {{/element}}
 ```
